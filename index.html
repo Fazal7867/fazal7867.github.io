@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#050505" />
+  <meta name="description" content="Mohammed Fazal Shaikh — Computer Engineer, Full Stack Developer and AI Builder." />
+  <title>FAZAL.OS — Mohammed Fazal Shaikh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="preloader" class="preloader" aria-hidden="true">
+    <div class="loader-grid"></div>
+    <div class="loader-core"></div>
+    <div class="loader-label"><span>BOOTING</span><b>FAZAL.OS</b></div>
+  </div>
+
+  <canvas id="space"></canvas>
+  <div class="noise"></div>
+  <div class="vignette"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Fazal home">FZ<span>/</span>OS</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#stack">Stack</a>
+      <a href="#journey">Journey</a>
+      <a href="#proof">Proof</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="cmdOpen" class="cmd-pill" type="button"><span>⌘</span> K <em>Command</em></button>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> MUMBAI, INDIA · AVAILABLE FOR OPPORTUNITIES</p>
+        <h1>Build the <span class="gradient-text">system.</span><br/>Make it <span class="outline-text">useful.</span></h1>
+        <p class="hero-sub">Computer Engineer building intelligent software systems across full-stack development, AI/ML and developer infrastructure.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">Explore the system <span>↘</span></a>
+          <a class="btn btn-ghost" href="assets/Fazal-Shaikh-Resume.pdf" target="_blank" rel="noopener">View resume <span>↗</span></a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>8.6</strong><span>GPA</span></div>
+          <div><strong>05+</strong><span>PROJECTS</span></div>
+          <div><strong>03</strong><span>1ST PLACE AWARDS</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal-delay">
+        <div class="orbit-label orbit-label-a">AI / SYSTEMS</div>
+        <div class="orbit-label orbit-label-b">FULL STACK</div>
+        <div class="portrait-card glass">
+          <div class="scanlines"></div>
+          <img src="assets/fazal.jpeg" alt="Mohammed Fazal Shaikh" />
+          <div class="portrait-hud">
+            <span>NODE_01</span>
+            <span>ONLINE</span>
+          </div>
+        </div>
+        <div class="core-glow"></div>
+      </div>
+    </section>
+
+    <section class="intro section narrow reveal" id="about">
+      <div class="section-index">01 / ENGINEER</div>
+      <div class="split-heading">
+        <h2>I don't just write code.<br/><span>I design systems.</span></h2>
+        <div class="intro-copy">
+          <p>My work sits where software engineering meets intelligent systems. I enjoy taking a messy problem, finding the structure underneath it, and turning that structure into something people can actually use.</p>
+          <p>I’ve worked with web applications, ML pipelines, NLP, AI tooling and event-led leadership — with a bias toward shipping, learning fast and making the details count.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="work">
+      <div class="section-head reveal">
+        <div><div class="section-index">02 / PROJECT UNIVERSE</div><h2>Selected <span>systems.</span></h2></div>
+        <p>Project cards are intentionally ready for GitHub / live-demo links when you add them.</p>
+      </div>
+
+      <div class="project-feature reveal">
+        <div class="project-stage">
+          <div class="mcp-rings"></div>
+          <div class="mcp-core">MCP</div>
+          <div class="stage-grid"></div>
+          <span class="stage-tag top">FLAGSHIP SYSTEM</span>
+          <span class="stage-tag bottom">PYTHON · TYPESCRIPT</span>
+        </div>
+        <div class="project-info">
+          <div class="project-kicker">01 · AI INFRASTRUCTURE</div>
+          <h3>MCP Server /<br/><span>AI Tool Integration Platform</span></h3>
+          <p>Built a standardized interface for AI assistants and LLM applications to discover and securely invoke external tools, APIs, databases and services — with authentication, authorization, logging and error handling.</p>
+          <div class="chip-row"><span>Model Context Protocol</span><span>API Integrations</span><span>Secure Tool Access</span></div>
+          <div class="project-links"><button class="text-link muted" type="button">GitHub <span>↗</span></button><button class="text-link muted" type="button">Case study <span>↘</span></button></div>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal" data-tilt>
+          <div class="card-visual finance"><div class="ticker">AI / FINANCE</div><div class="signal-line"></div><div class="signal-dot"></div><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+          <div class="card-body"><div class="project-number">02</div><h3>AI Investment<br/>Guidance Platform</h3><p>Unified market + news intelligence with LSTM forecasting, NLP sentiment analysis and portfolio optimization concepts.</p><div class="chip-row"><span>Python</span><span>LSTM</span><span>NLP</span></div><div class="project-links"><button class="text-link muted" type="button">GitHub <span>↗</span></button></div></div>
+        </article>
+        <article class="project-card reveal" data-tilt>
+          <div class="card-visual agriculture"><div class="crop-grid"></div><div class="decision-node">ML</div><div class="loan-lines"></div></div>
+          <div class="card-body"><div class="project-number">03</div><h3>Agricultural Loan<br/>Recommender</h3><p>Recommendation system matching farmers and banking needs to suitable loan schemes with tree-based ML.</p><div class="chip-row"><span>Random Forest</span><span>Decision Trees</span></div><div class="project-links"><button class="text-link muted" type="button">GitHub <span>↗</span></button></div></div>
+        </article>
+        <article class="project-card reveal" data-tilt>
+          <div class="card-visual meeting"><div class="transcript">"We agreed to…"<br/>"Action item…"<br/>"Next step…"</div><div class="summary-pill">SUMMARY_READY</div></div>
+          <div class="card-body"><div class="project-number">04</div><h3>Virtual Meet<br/>Summarizer</h3><p>Turns online meeting transcripts into useful summaries using NLP, spaCy and transformer-based tooling.</p><div class="chip-row"><span>Python</span><span>spaCy</span><span>Transformers</span></div><div class="project-links"><button class="text-link muted" type="button">GitHub <span>↗</span></button></div></div>
+        </article>
+        <article class="project-card reveal" data-tilt>
+          <div class="card-visual trading"><div class="trading-ui"><span>ZERODHA</span><b>₹ 24,681</b><small>+2.43%</small><div class="chart-wave"></div></div></div>
+          <div class="card-body"><div class="project-number">05</div><h3>Zerodha Trading<br/>Platform Clone</h3><p>Functional trading UI clone focused on frontend experience and basic stock interaction flows.</p><div class="chip-row"><span>React</span><span>JavaScript</span><span>UI/UX</span></div><div class="project-links"><button class="text-link muted" type="button">GitHub <span>↗</span></button></div></div>
+        </article>
+        <article class="project-card reveal" data-tilt>
+          <div class="card-visual airbnb"><div class="house-shape"></div><div class="pin">●</div><div class="booking-card"><span>MUMBAI</span><b>Stay anywhere.</b></div></div>
+          <div class="card-body"><div class="project-number">06</div><h3>Airbnb<br/>Web Replica</h3><p>Property listing, search and booking flows with authentication and storage powered by Firebase.</p><div class="chip-row"><span>React</span><span>Firebase</span></div><div class="project-links"><button class="text-link muted" type="button">GitHub <span>↗</span></button></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="stack section" id="stack">
+      <div class="section-head reveal"><div><div class="section-index">03 / SYSTEM ARCHITECTURE</div><h2>The <span>stack.</span></h2></div><p>Technologies I’m comfortable turning into production-shaped systems.</p></div>
+      <div class="stack-board glass reveal">
+        <div class="stack-node node-center"><span>FAZAL</span><small>ENGINEER</small></div>
+        <div class="stack-node node-front"><small>FRONTEND</small><strong>React · Next.js</strong><em>TypeScript · HTML · CSS</em></div>
+        <div class="stack-node node-back"><small>BACKEND</small><strong>Node · FastAPI</strong><em>REST APIs</em></div>
+        <div class="stack-node node-ai"><small>AI / ML</small><strong>Python · TensorFlow</strong><em>Scikit-learn · Pandas · NumPy</em></div>
+        <div class="stack-node node-data"><small>DATA</small><strong>PostgreSQL · MySQL</strong><em>Power BI · Tableau · Excel</em></div>
+        <div class="stack-node node-tools"><small>TOOLS</small><strong>Git · GitHub</strong><em>Prisma · Supabase · Vercel</em></div>
+        <div class="connection c1"></div><div class="connection c2"></div><div class="connection c3"></div><div class="connection c4"></div><div class="connection c5"></div>
+      </div>
+    </section>
+
+    <section class="journey section" id="journey">
+      <div class="section-head reveal"><div><div class="section-index">04 / MISSION LOG</div><h2>The <span>journey.</span></h2></div><p>A compact timeline from student builder to systems-focused engineer.</p></div>
+      <div class="timeline">
+        <div class="timeline-line"></div>
+        <article class="timeline-item reveal"><span class="year">2021—22</span><div><h3>School Prefect</h3><p>Selected as a school prefect, representing the student body and supporting school activities.</p></div></article>
+        <article class="timeline-item reveal"><span class="year">2024</span><div><h3>Hertzofts Technologies · Intern</h3><p>Worked with teams to analyze problems, develop solutions and expand software skills.</p></div></article>
+        <article class="timeline-item reveal"><span class="year">2024—25</span><div><h3>EDC · PR Member</h3><p>Handled event promotions and helped increase student engagement and participation.</p></div></article>
+        <article class="timeline-item reveal"><span class="year">2025—26</span><div><h3>EDC · Head Coordinator</h3><p>Led end-to-end execution of 4+ major events, coordinating volunteers, logistics, speakers and operations.</p></div></article>
+        <article class="timeline-item reveal"><span class="year">2025—26</span><div><h3>Hult Prize · Campus Director</h3><p>Spearheaded the campus round and coordinated registrations, judging panels and event delivery.</p></div></article>
+        <article class="timeline-item reveal"><span class="year">2026</span><div><h3>B.E. Computer Engineering</h3><p>M.H. Saboo Siddik College of Engineering · Mumbai · GPA 8.6</p></div></article>
+      </div>
+    </section>
+
+    <section class="proof section" id="proof">
+      <div class="section-head reveal"><div><div class="section-index">05 / PROOF OF WORK</div><h2>When it <span>matters.</span></h2></div><p>Three first-place results that earned their place on the wall.</p></div>
+      <div class="awards">
+        <article class="award-card reveal"><div class="award-icon">01</div><div><span>HACKATHON</span><h3>IIGC Hackathon</h3><p>1st Position · MHSSCE</p></div></article>
+        <article class="award-card reveal"><div class="award-icon">02</div><div><span>IDEA PRESENTATION</span><h3>IEEE</h3><p>1st Position · MHSSCE</p></div></article>
+        <article class="award-card reveal"><div class="award-icon">03</div><div><span>PAPER PRESENTATION</span><h3>MHSSCE</h3><p>1st Position</p></div></article>
+      </div>
+    </section>
+
+    <section class="knowledge section reveal" id="knowledge">
+      <div class="section-head"><div><div class="section-index">06 / KNOWLEDGE GRAPH</div><h2>What I've <span>studied.</span></h2></div><p>Certifications and structured learning across development, AI, cloud and data.</p></div>
+      <div class="knowledge-grid">
+        <div class="knowledge-card glass"><span class="kg-index">DEV</span><h3>Software Engineering</h3><p>MERN stack · DSA in Java · Java Fundamentals · Web Development</p></div>
+        <div class="knowledge-card glass"><span class="kg-index">AI</span><h3>AI / Data</h3><p>Prompt Engineering · Machine Learning · Cisco AI · Data Science modules</p></div>
+        <div class="knowledge-card glass"><span class="kg-index">CLOUD</span><h3>Cloud / Infrastructure</h3><p>AWS Cloud Foundations · Cloud Operations · Network Security</p></div>
+      </div>
+    </section>
+
+    <section class="resume section narrow reveal" id="resume">
+      <div class="resume-panel glass">
+        <div><div class="section-index">07 / RESUME</div><h2>The one-page<br/><span>version.</span></h2><p>Prefer the traditional view? I kept it one click away.</p></div>
+        <div class="resume-actions"><a class="btn btn-primary" href="assets/Fazal-Shaikh-Resume.pdf" target="_blank" rel="noopener">Open PDF <span>↗</span></a><a class="btn btn-ghost" href="assets/Fazal-Shaikh-Resume.pdf" download>Download <span>↓</span></a></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-inner reveal">
+        <div><div class="section-index">08 / CONTACT</div><h2>Let's build<br/><span>something.</span></h2><p>Have an idea, a role, or a problem worth solving?</p></div>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:shaikfazal004@gmail.com"><small>EMAIL</small><strong>shaikfazal004@gmail.com</strong><span>↗</span></a>
+          <a class="contact-link" href="https://www.linkedin.com/in/fazal-shaikh-555404195" target="_blank" rel="noopener"><small>LINKEDIN</small><strong>fazal-shaikh-555404195</strong><span>↗</span></a>
+          <a class="contact-link" href="https://github.com/Fazal7867" target="_blank" rel="noopener"><small>GITHUB</small><strong>github.com/Fazal7867</strong><span>↗</span></a>
+          <a class="contact-link" href="tel:+919967826317"><small>PHONE</small><strong>+91 99678 26317</strong><span>↗</span></a>
+        </div>
+      </div>
+      <footer><span>FAZAL.OS · 2026</span><span>ENGINEERED IN MUMBAI</span></footer>
+    </section>
+  </main>
+
+  <div id="command" class="command-overlay" aria-hidden="true">
+    <div class="command-box glass">
+      <div class="command-top"><span>FAZAL.OS TERMINAL</span><button id="cmdClose" aria-label="Close">ESC</button></div>
+      <div class="terminal-output" id="terminalOutput"><div><span class="prompt">fazal@os</span>:~$ <span>type a command</span></div></div>
+      <form id="terminalForm" class="terminal-form"><span class="prompt">fazal@os</span>:~$ <input id="terminalInput" autocomplete="off" spellcheck="false" placeholder="try: projects" /></form>
+      <div class="terminal-help">Commands: <button data-cmd="help">help</button><button data-cmd="about">about</button><button data-cmd="projects">projects</button><button data-cmd="stack">stack</button><button data-cmd="contact">contact</button><button data-cmd="resume">resume</button><button data-cmd="clear">clear</button></div>
+    </div>
+  </div>
+
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
